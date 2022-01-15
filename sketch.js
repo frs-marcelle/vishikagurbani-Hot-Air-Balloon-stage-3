@@ -77,13 +77,13 @@ function draw() {
 
   if(gameState === PLAY){
 
-    //fazendo o balão de ar quente pular
+    //faça o balão de ar quente pular
     if(keyDown("space")) {
       balloon.velocityY = -6 ;
       
     }
 
-    //adicionar gravidade
+    //adicione gravidade
      balloon.velocityY = balloon.velocityY + 2;
 
      
